@@ -4,7 +4,7 @@ import ToDoList from "./TodoList";
 
 class ToDoForm extends React.Component {
   constructor() {
-    super();
+    super(); // why is this super here?
     this.state = {
       inputValue: "",
     };
