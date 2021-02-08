@@ -16,7 +16,7 @@ console.log(toDos);
 class App extends React.Component {
   // you will need a place to store your state in this component.
   constructor() {
-    super();
+    super(); // why is this here?
     this.state = {
       toDos: toDos,
     };
